@@ -68,6 +68,37 @@
             <point key="canvasLocation" x="75" y="697"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="3ki-uT-YJB">
+            <objects>
+                <viewController id="17j-Q4-jvV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FMI-lk-8sv"/>
+                        <viewControllerLayoutGuide type="bottom" id="teF-eC-Cvv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LWx-IS-YZe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="justJokeing6" translatesAutoresizingMaskIntoConstraints="NO" id="kZG-EB-JYb">
+                                <rect key="frame" x="36" y="54" width="248" height="322"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.37516445468508652" blue="0.74555010014674605" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kZG-EB-JYb" firstAttribute="top" secondItem="FMI-lk-8sv" secondAttribute="bottom" constant="34" id="012-5a-j10"/>
+                            <constraint firstItem="kZG-EB-JYb" firstAttribute="leading" secondItem="LWx-IS-YZe" secondAttribute="leadingMargin" constant="20" id="DED-iC-ebF"/>
+                            <constraint firstItem="teF-eC-Cvv" firstAttribute="top" secondItem="kZG-EB-JYb" secondAttribute="bottom" constant="55" id="Ki3-E5-Hwf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kZG-EB-JYb" secondAttribute="trailing" constant="20" id="iNf-lM-KiU"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="jhy-zW-8Jz"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jv6-7g-dd8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-934" y="-639"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="xU0-pw-TH7">
             <objects>
                 <viewController id="uB4-We-vyc" sceneMemberID="viewController">
@@ -150,6 +181,7 @@
                         <segue destination="uB4-We-vyc" kind="relationship" relationship="viewControllers" id="b8V-OT-hQi"/>
                         <segue destination="J1H-OD-eIY" kind="relationship" relationship="viewControllers" id="gqU-Px-WxN"/>
                         <segue destination="iIx-FC-uSA" kind="relationship" relationship="viewControllers" id="g0b-wW-Rdu"/>
+                        <segue destination="17j-Q4-jvV" kind="relationship" relationship="viewControllers" id="Fp8-1e-lFm"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TJa-so-UAW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -276,5 +308,6 @@
         <image name="justJokeing3" width="236" height="415"/>
         <image name="justJokeing4" width="600" height="375"/>
         <image name="justJokeing5" width="500" height="411"/>
+        <image name="justJokeing6" width="400" height="529"/>
     </resources>
 </document>
